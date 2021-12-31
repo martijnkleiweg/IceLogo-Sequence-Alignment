@@ -167,7 +167,7 @@ def readcsv():
     # Read cleaned file that includes all the character positions
 
 
-    with open('fifth.csv', newline='') as g:
+    with open('first.csv', newline='') as g:
         reader = csv.reader(g)
         character_list = list(reader)
 
